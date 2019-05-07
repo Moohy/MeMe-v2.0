@@ -32,7 +32,7 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7cW-3T-sc4" userLabel="imageView">
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7cW-3T-sc4" userLabel="imageView">
                                             <rect key="frame" x="0.0" y="0.0" width="160" height="43.5"/>
                                         </imageView>
                                     </subviews>
@@ -258,7 +258,7 @@
                                 <color key="backgroundColor" red="0.90153416450000001" green="0.90153416450000001" blue="0.90153416450000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="J1G-9c-izg" userLabel="top">
-                                <rect key="frame" x="20" y="108" width="374" height="72"/>
+                                <rect key="frame" x="20" y="118" width="374" height="72"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="72" id="jTX-9x-DFX"/>
                                 </constraints>
@@ -267,7 +267,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K9E-4W-1b5" userLabel="bottom">
-                                <rect key="frame" x="20" y="715" width="374" height="72"/>
+                                <rect key="frame" x="20" y="705" width="374" height="72"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="72" id="F4O-YL-LGu"/>
                                 </constraints>
@@ -291,8 +291,8 @@
                             <constraint firstItem="luQ-ED-l2o" firstAttribute="leading" secondItem="k22-0d-5NB" secondAttribute="leading" id="pKf-4X-pde"/>
                             <constraint firstItem="k22-0d-5NB" firstAttribute="bottom" secondItem="GOg-iU-f5M" secondAttribute="bottom" id="rjb-fx-R6W"/>
                             <constraint firstItem="GOg-iU-f5M" firstAttribute="trailing" secondItem="K9E-4W-1b5" secondAttribute="trailing" constant="20" id="tpi-K1-pfm"/>
-                            <constraint firstItem="J1G-9c-izg" firstAttribute="top" secondItem="D72-lW-kvx" secondAttribute="bottom" constant="20" id="vOn-wM-Krq"/>
-                            <constraint firstItem="k22-0d-5NB" firstAttribute="top" secondItem="K9E-4W-1b5" secondAttribute="bottom" constant="20" id="x5S-nm-Rcm"/>
+                            <constraint firstItem="J1G-9c-izg" firstAttribute="top" secondItem="D72-lW-kvx" secondAttribute="bottom" constant="30" id="vOn-wM-Krq"/>
+                            <constraint firstItem="k22-0d-5NB" firstAttribute="top" secondItem="K9E-4W-1b5" secondAttribute="bottom" constant="30" id="x5S-nm-Rcm"/>
                             <constraint firstItem="D72-lW-kvx" firstAttribute="trailing" secondItem="luQ-ED-l2o" secondAttribute="trailing" id="yoA-hS-L5y"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="GOg-iU-f5M"/>
